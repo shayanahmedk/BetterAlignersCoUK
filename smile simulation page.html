@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="#">
+
+    <link href="https://app.sightbuilder.pro/assets/minimalist-blocks/content.css" rel="stylesheet">
+    <link href="https://app.sightbuilder.pro/box/box-flex.css" rel="stylesheet">
+
+    <link data-name="contentstyle" data-class="type-opensans" href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-poppins" href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-poppins-lekton" href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-heebo-ibmplexmono-2" href="https://app.sightbuilder.pro/assets/styles/type-heebo-ibmplexmono-2.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-heebo-ibmplexmono" href="https://app.sightbuilder.pro/assets/styles/type-heebo-ibmplexmono.css" rel="stylesheet">
+</head>
+
+<body style="touch-action: pan-y">
+
+    <main id="main">
+        <div class="is-wrapper">
+            <div class="is-section is-section-navbar is-section-sticky is-section-auto is-box type-opensans last-box" style="height: 90px; background: transparent;">
+                <div class="is-overlay">
+                    <div class="is-overlay-content content-selectable">
+                        <div class="is-topbar">
+                            <div class="is-topbar-container" style="max-width:980px;">
+                                <div class="is-topbar-logo"><a class="is-logo-link" href="." title="Your Name"><span class="is-sitename">Your Name</span></a></div>
+                                <div class="is-topbar-menu"><a id="is-menu-toggle" href="javascript:void(0)" title="Menu"><span class="line line-1"></span><span class="line line-2"></span><span class="line line-3"></span></a>
+                                    <div class="is-menu-overlay"></div>
+                                    <div class="is-menu">
+                                        <div class="is-menu-search-input"><input id="is_txtSearch" type="text" placeholder="Search"><button id="is_btnSearch"><i class="icon-menu-search"></i></button></div>
+                                        <ul class="is-menu-links">
+                                            <li><a href="#section1"><i class="icon ion-android-home"></i></a></li>
+                                            <li><a href="portfolio">Portfolio</a></li>
+                                            <li><a href="about">About</a></li>
+                                            <li><a href=""><i class="icon ion-android-share-alt"></i></a>
+                                                <ul>
+                                                    <li><a href="https://twitter.com">Twitter</a></li>
+                                                    <li><a href="https://facebook">Facebook</a></li>
+                                                    <li><a href="https://youtube.com">Youtube</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var navbarReady = function(fn) {
+                                var stateCheck = setInterval(function() {
+                                    if (typeof NavBar === "undefined") return;
+                                    clearInterval(stateCheck);
+                                    try {
+                                        fn()
+                                    } catch (e) {}
+                                }, 1);
+                            };
+                            navbarReady(function() {
+                                var obj = new NavBar({
+                                    onSearch: (keywords) => {
+                                        alert(keywords)
+                                    }
+                                });
+                                obj.init();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
+            <div class="is-section is-box is-section-100 is-light-text type-poppins-lekton is-content-bottom edge-y-4 min-height-60 last-box">
+                <div class="is-overlay" style="background-color: rgb(225, 225, 225);">
+                    <div class="is-overlay-bg" style="background-image: url(&quot;https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1707433255306_smiling man face.jpg&quot;); background-position: 50% 60%; opacity: 1;">
+                        <div class="is-overlay-color opacity-8"></div>
+                    </div>
+                </div>
+                <div class="is-container v2 is-content-1740 size-17 leading-none" style="transition: all 0.3s ease-out 0s;">
+
+                    <div class="row">
+                        <div class="column">
+                            <div class="display">
+                                <h1 class="text-center size-120 xs-size-200">IMAGINE</h1>
+                                <p class="text-center size-54 xs-size-76">SEE THE POWER OF A NEW SMILE&nbsp;</p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="text-right button-group">
+                                <a href="#" role="button" class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid mr-2 mt-2 mb-1 pt-3 pb-3 px-12 uppercase font-normal leading-relaxed border-transparent rounded-full size-16 tracking-75 hover:border-transparent hover:text-black" title="" style="color: rgb(0, 0, 0); background-color: rgb(254, 222, 76);">See a new you CLICK HERE<br></a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-240"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="row sm-autofit">
+
+                        <div class="column">
+                            <div class="spacer height-40"></div>
+                        </div>
+                        <div class="column sm-hidden">
+                            <div class="spacer height-80"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <p class="font-semibold size-48 text-center">It's more than a smile</p>
+                            <p class="font-semibold size-48 text-center">It is confidence&nbsp;</p>
+                            <p class="font-semibold size-48 text-center">Ambition</p>
+                            <p class="font-semibold size-48 text-center">Friendship</p>
+                            <p><br></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-box is-dark-text is-section-100 type-poppins box-autofit last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 is-content-1220 size-17 leading-13">
+                    <div class="row">
+                        <div class="column" style="width: 76%; flex: 0 0 auto;">
+                            <h2 class="size-160 text-left font-medium">About:</h2>
+                        </div>
+                        <div class="column">
+                            <div class="spacer height-80"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column sm-hidden">
+                            <div class="spacer height-160"></div>
+                        </div>
+
+                    </div>
+                    <div class="row relative desktop-items-1">
+
+                        <div class="column">
+                            <p class="text-justify size-38" id="aboutUs_description">At myclinique, we specialize in smile simulation to help you visualize your perfect smile. With advanced dental technology and a skilled team, we offer personalized treatment plans to achieve optimal oral health and aesthetics. Our commitment to exceptional patient care ensures a comfortable and satisfying experience. Let us empower you with a confident and radiant smile that you can proudly share with the world.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="is-section is-box is-section-100 type-poppins box-autofit last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 leading-14 size-16 is-content-1400">
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="font-normal" id="cwi_item_1">The Science of Smile Simulation: Understanding the Technology Behind It</h2>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-100"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column" id="cwi_item_1_image_1"><img src="https://avantdental.com.au/wp-content/uploads/2022/02/Digital-Smile-Design.jpg" alt="" data-filename="img-106.jpg" data-t-200="transform: translateX(-30%);" style="transform-origin: center center;" data-t-700="transform: translateX(0px);" data-t-1400="transform: translateX(0px);" data-t-1700="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_1">Digital Smile Design</h3>
+                            <p id="cwi_item_1_description_1">Digital Smile Design (DSD) uses advanced technology to simulate a patient's potential smile transformation. This includes 3D imaging, smile design software, and virtual mock-ups.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_2"><img src="https://innovatedentalmarketing.com/wp-content/uploads/smile.jpg" alt="" data-filename="img-900x675.png" style="transform-origin: center center;" data-t-1600="transform: translateX(30%);" data-t-1200="transform: translateX(0px);" data-t-500="transform: translateX(0px);" data-t-100="transform: translateX(-30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_2">Augmented Reality Dentistry</h3>
+                            <p id="cwi_item_1_description_2">Augmented reality (AR) is used to demonstrate potential dental procedures and their impact on a patient's smile. This technology offers interactive, real-time visualizations of smile simulations.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_3"><img src="https://www.dentaltreatmentsimulation.com/assets/images/dts3d/Pricing.jpg" alt="" data-filename="img-090.jpg" data-t="transform: translateX(-30%);" style="transform-origin: center center;" data-t-400="transform: translateX(0px);" data-t-1100="transform: translateX(0px);" data-t-1500="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_3">Smile Simulation Software</h3>
+                            <p id="cwi_item_1_description_3">Specialized software allows for the customization and visualization of smile makeovers. It enables dentists and patients to explore various options for teeth alignment, color, and overall aesthetics.</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-20"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-box is-section-100 type-poppins box-autofit last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 leading-14 size-16 is-content-1400">
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="font-normal" id="cwi_item_1">Empowering Yourself with Smile Simulation: Exploring the Benefits and Options</h2>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-100"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column" id="cwi_item_1_image_1"><img src="https://www.elmens.com/wp-content/uploads/2019/10/How-to-Feel-More-Confident-in-Your-Smile.jpg" alt="" data-filename="img-106.jpg" data-t-200="transform: translateX(-30%);" style="transform-origin: center center;" data-t-700="transform: translateX(0px);" data-t-1400="transform: translateX(0px);" data-t-1700="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_1">Boosting Confidence</h3>
+                            <p id="cwi_item_1_description_1">Smile simulation can help individuals visualize and experience an improved smile, boosting their confidence and self-esteem.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_2"><img src="http://preventivedentistry.com.au/wp-content/uploads/2016/07/Smile-enhancements-at-Preventive-Dentistry-Braddon.jpg" alt="" data-filename="img-900x675.png" style="transform-origin: center center;" data-t-1600="transform: translateX(30%);" data-t-1200="transform: translateX(0px);" data-t-500="transform: translateX(0px);" data-t-100="transform: translateX(-30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_2">Enhancing Decision Making</h3>
+                            <p id="cwi_item_1_description_2">By simulating different smile options, individuals can make informed decisions about dental treatments, leading to enhanced overall well-being.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_3"><img src="https://smilestation.in/wp-content/uploads/2021/04/IMG_0329-715x1024.png" alt="" data-filename="img-090.jpg" data-t="transform: translateX(-30%);" style="transform-origin: center center;" data-t-400="transform: translateX(0px);" data-t-1100="transform: translateX(0px);" data-t-1500="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_3">Personalized Results</h3>
+                            <p id="cwi_item_1_description_3">With advancements in technology, smile simulation offers personalized results, allowing individuals to see the potential outcome before undergoing any procedures.</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-20"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-box is-section-100 type-poppins box-autofit last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 leading-14 size-16 is-content-1400">
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="font-normal" id="cwi_item_1">Enhancing Your Confidence: How Smile Simulation Can Transform Your Appearance</h2>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-100"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column" id="cwi_item_1_image_1"><img src="https://www.designbolts.com/wp-content/uploads/2019/02/smiling-woman-free-stock-photo-1.jpg" alt="" data-filename="img-106.jpg" data-t-200="transform: translateX(-30%);" style="transform-origin: center center;" data-t-700="transform: translateX(0px);" data-t-1400="transform: translateX(0px);" data-t-1700="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_1">Boosted Mood and Confidence</h3>
+                            <p id="cwi_item_1_description_1">Smile simulation can improve your mood and confidence, making you appear more approachable and friendly. A confident smile can have a positive impact on your overall appearance.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_2"><img src="https://thewomensjournal.com/wp-content/uploads/2013/10/smil.jpg" alt="" data-filename="img-900x675.png" style="transform-origin: center center;" data-t-1600="transform: translateX(30%);" data-t-1200="transform: translateX(0px);" data-t-500="transform: translateX(0px);" data-t-100="transform: translateX(-30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_2">Radiant and Youthful Look</h3>
+                            <p id="cwi_item_1_description_2">Simulating a smile can instantly lift your facial muscles and create a more youthful and radiant appearance. It can make you look more vibrant and attractive.</p>
+                        </div>
+                        <div class="column" id="cwi_item_1_image_3"><img src="https://ibcces.org/wp-content/uploads/2017/02/professional-smiling-hd-3040.jpg" alt="" data-filename="img-090.jpg" data-t="transform: translateX(-30%);" style="transform-origin: center center;" data-t-400="transform: translateX(0px);" data-t-1100="transform: translateX(0px);" data-t-1500="transform: translateX(30%);">
+                            <div class="spacer height-20"></div>
+                            <h3 class="font-normal size-21" id="cwi_item_1_subtitle_3">Enhanced Professional Image</h3>
+                            <p id="cwi_item_1_description_3">A genuine smile can convey sincerity and warmth, contributing to a professional and trustworthy image. Through smile simulation, you can exude confidence and competence.</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-20"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-section-100 is-box type-poppins box-autofit last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 size-16 is-content-1300 leading-13">
+                    <div class="row">
+                        <div class="column">
+                            <h2 class="text-center size-48 font-extralight">Our Services</h2>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="spacer height-80"></div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <p style="font-size: 1.5em;" id="service_1" class="font-semibold">Customized Smile Design</p>
+                            <div id="service_image_1"><img src="https://mymanhattancosmeticdentist.com/wp-content/uploads/2022/11/laura-t-smiin1080x1350ssgD.jpg" alt="" data-filename="img-039.jpg"></div>
+                            <p id="service_description_1">Personalized smile simulation to design the perfect smile for each patient.</p>
+                        </div>
+                        <div class="column">
+                            <p style="font-size: 1.5em;" id="service_2" class="font-semibold">Virtual Smile Preview</p>
+                            <div id="service_image_2"><img src="https://www.delhidental.com/wp-content/uploads/2022/02/dream-smile.png" alt="" data-filename="img-039.jpg"></div>
+                            <p id="service_description_2">Interactive virtual preview of the proposed dental changes before treatment begins.</p>
+                        </div>
+                        <div class="column">
+                            <p style="font-size: 1.5em;" id="service_3" class="font-semibold">Digital Smile Makeover</p>
+                            <div id="service_image_3"><img src="https://www.elitedental.com.sg/wp-content/uploads/2019/01/Digital-Smile-Designbigl.jpg" alt="" data-filename="img-039.jpg"></div>
+                            <p id="service_description_3">Utilizing advanced technology to create a digital transformation of the patient's smile.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-section-100 type-heebo-ibmplexmono-2 scroll-target">
+                <div class="is-box is-box-6 box-autofit min-height-50">
+                    <div class="is-overlay" style="background-color: rgb(247, 247, 247);">
+                        <div class="is-overlay-bg" style="background-image: url(&quot;https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1708197855106_testimonials.jpg&quot;); background-position: 50% 60%;"></div>
+                    </div>
+                    <div class="is-container v2 size-17 leading-13 is-content-540">
+                        <div class="row">
+                            <div class="column">
+                                <div class="spacer height-80"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="is-box is-box-6 box-autofit last-box">
+                    <div class="is-overlay">
+                    </div>
+                    <div class="is-container v2 leading-13 text-left size-16 is-content-800">
+                        <div class="row">
+                            <div class="column">
+                                <h2 class="font-light size-60">Testimonials</h2>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="spacer height-100"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column" style="width: 63.3333%; flex: 0 0 auto;">
+                                <div class="text-left">
+                                    <i class="icon ion-quote size-38"></i>
+                                </div>
+                                <p id="testimonial_text_1">I had a great experience at MyClinique. The staff was friendly and professional, and the service was top-notch. I would highly recommend them to anyone looking for a dental clinic.</p>
+                                <p class="size-14 tracking-wider" style="color: rgb(145, 145, 145);" id="testimonial_author_1">Emily Smith</p>
+                            </div>
+                            <div class="column xs-hidden">
+                                <div class="spacer height-60"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="spacer height-20"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column xs-hidden">
+                                <div class="spacer height-60"></div>
+                            </div>
+                            <div style="width: 71.1796%; flex: 0 0 auto;" class="column">
+                                <div class="text-right">
+                                    <i class="icon ion-quote size-38"></i>
+                                </div>
+                                <p class="text-right" id="testimonial_text_2">I was always anxious about visiting the dentist, but MyClinique changed that for me. The team made me feel comfortable and at ease throughout the entire process. I'm extremely satisfied with the results and will definitely be returning for future dental care.</p>
+                                <p class="size-14 tracking-wider text-right" style="color: rgb(145, 145, 145);" id="testimonial_author_2">John Davis</p>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <div class="spacer height-20"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column" style="width: 50.134%; flex: 0 0 auto;">
+                                <div class="text-left">
+                                    <i class="icon ion-quote size-38"></i>
+                                </div>
+                                <p id="testimonial_text_3">MyClinique provides exceptional care and attention to detail. I was thoroughly impressed by the expertise of the dentists and the modern facilities. I wouldn't hesitate to trust them with my dental needs again.</p>
+                                <p class="size-14 tracking-wider" style="color: rgb(145, 145, 145);" id="testimonial_author_3">Sarah Johnson</p>
+                            </div>
+                            <div class="column xs-hidden">
+                                <div class="spacer height-60"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-box is-section-60 box-autofit min-height-40 type-heebo-ibmplexmono last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 size-18 leading-12 is-content-1300">
+                    <div class="row">
+                        <div class="column flex flex-col justify-center items-center">
+                            <h2 class="leading-11 size-72 text-center font-normal" id="cta_text">Transform your smile today. Schedule an appointment with myclinique and experience the difference!</h2>
+                        </div>
+                        <div class="column flex flex-col justify-center items-center" style="width: 34%; flex: 0 0 auto;">
+                            <div class="text-center">
+                                <a href="#" role="button" class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid mr-2 mt-2 mb-1 pt-3 pb-3 size-16 px-12 uppercase border-current hover:border-current font-normal leading-relaxed rounded-full tracking-75" id="cta_button">Book Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="is-section is-box is-dark-text is-static is-section-50 box-autofit type-poppins last-box">
+                <div class="is-overlay"></div>
+                <div class="is-container v2 is-content-1100 size-16 leading-13">
+                    <div class="row">
+                        <div class="column center">
+                            <h2 class="size-32 is-title1-32 is-title-lite font-light tracking-wide" id="footer_logo_text">myclinique </h2>
+                            <p>
+                                12345 Street Name, City. State 12345<br>
+                                P: (123) 456 7890 / 456 7891
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column center">
+                            <div class="is-social size-21" style="margin: 20px 0">
+                                <a href="https://twitter.com/"><i class="icon ion-social-twitter" style="margin-right: 2em"></i></a>
+                                <a href="https://www.facebook.com/"><i class="icon ion-social-facebook" style="margin-right: 2em"></i></a>
+                                <a href="https://www.instagram.com/"><i class="icon ion-social-instagram-outline" style="margin-right: 2em"></i></a>
+                                <a href="mailto:you@example.com"><i class="icon ion-android-drafts"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="column center">
+                            <p class="size-14" id="footer_logo_text">© Copyright 2023 Company Name</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <link data-name="contentstyle" data-class="type-opensans" href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-poppins" href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-poppins-lekton" href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-heebo-ibmplexmono-2" href="https://app.sightbuilder.pro/assets/styles/type-heebo-ibmplexmono-2.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-heebo-ibmplexmono" href="https://app.sightbuilder.pro/assets/styles/type-heebo-ibmplexmono.css" rel="stylesheet">
+        </div>
+    </main>
+
+    <link href="https://app.sightbuilder.pro/assets/scripts/glide/css/glide.core.css" rel="stylesheet">
+    <link href="https://app.sightbuilder.pro/assets/scripts/glide/css/glide.theme.css" rel="stylesheet">
+    <script src="https://app.sightbuilder.pro/assets/scripts/glide/glide.js"></script>
+
+    <link href="https://app.sightbuilder.pro/assets/scripts/navbar/navbar.css" rel="stylesheet">
+    <script src="https://app.sightbuilder.pro/assets/scripts/navbar/navbar.min.js"></script>
+
+    <script src="https://app.sightbuilder.pro/box/box-flex.js"></script>
+
+    <!-- Optional: if you want to add smooth scrolling -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+    <script>
+        SmoothScroll({
+            frameRate: 150,
+            animationTime: 800,
+            stepSize: 120,
+            pulseAlgorithm: 1,
+            pulseScale: 4,
+            pulseNormalize: 1,
+            accelerationDelta: 300,
+            accelerationMax: 2,
+            keyboardSupport: 1,
+            arrowScroll: 50,
+            fixedBackground: 0
+        });
+    </script>
+</body>
+
+</html>
