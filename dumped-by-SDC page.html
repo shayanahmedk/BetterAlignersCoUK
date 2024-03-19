@@ -11,39 +11,120 @@
     <link href="https://app.sightbuilder.pro/assets/minimalist-blocks/content.css" rel="stylesheet">
     <link href="https://app.sightbuilder.pro/box/box-flex.css" rel="stylesheet">
 
-    <link data-name="contentstyle" data-class="type-poppins-lekton" href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
-    <link data-name="contentstyle" data-class="type-poppins" href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
-    <link data-name="contentstyle" data-class="type-opensans" href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-poppins-lekton"
+        href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-poppins"
+        href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
+    <link data-name="contentstyle" data-class="type-opensans"
+        href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
 </head>
 
 <body style="touch-action: pan-y">
 
     <main id="main">
         <div class="is-wrapper">
+            <div class="is-section is-section-navbar is-section-sticky is-section-auto is-box type-opensans last-box"
+                style="height:90px;background:transparent;">
+                <div class="is-overlay">
+                    <div class="is-overlay-content content-selectable">
+                        <div class="is-topbar">
+                            <div class="is-topbar-container" style="max-width:980px;">
+                                <div class="is-topbar-logo"><a class="is-logo-link" href="index.html" title="Your Name"><span
+                                    class="is-sitename">Better Aligners</span></a></div>
+                                <div class="is-topbar-menu"><a id="is-menu-toggle" href="javascript:void(0)"
+                                        title="Menu"><span class="line line-1"></span><span
+                                            class="line line-2"></span><span class="line line-3"></span></a>
+                                    <div class="is-menu-overlay"></div>
+                                    <div class="is-menu">
+                                        <div class="is-menu-search-input"><input id="is_txtSearch" type="text"
+                                                placeholder="Search"><button id="is_btnSearch"><i
+                                                    class="icon-menu-search"></i></button></div>
+                                        <ul class="is-menu-links">
+                                            <li><a href="#section1"><i class="icon ion-android-home"></i></a></li>
+                                            <li><a href="aligners-pricing.html">Aligner Pricing</a></li>
+                                            <li><a href="dumped-by-SDC page.html">Dumped by SDC?</a></li>
+                                            <!-- <li><a href=""><i class="icon ion-android-share-alt"></i></a>
+                                                <ul>
+                                                    <li><a href="https://twitter.com">Twitter</a></li>
+                                                    <li><a href="https://facebook">Facebook</a></li>
+                                                    <li><a href="https://youtube.com">Youtube</a></li>
+                                                </ul>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var navbarReady = function (fn) {
+                                var stateCheck = setInterval(function () {
+                                    if (typeof NavBar === "undefined") return;
+                                    clearInterval(stateCheck);
+                                    try {
+                                        fn()
+                                    } catch (e) { }
+                                }, 1);
+                            };
+                            navbarReady(function () {
+                                var obj = new NavBar({
+                                    onSearch: (keywords) => {
+                                        alert(keywords)
+                                    }
+                                });
+                                obj.init();
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+
             <div class="is-section is-box is-section-100 is-light-text type-poppins-lekton is-content-bottom edge-y-4 min-height-60 last-box">
                 <div class="is-overlay" style="background-color: rgb(247, 247, 247);">
-                    <div class="is-overlay-bg" style="background-image: url(&quot;https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1707261675473_shutterstock_2326012803_edited.jpeg&quot;); background-position: 50% 60%; opacity: 1;">
+                    <div class="is-overlay-bg"
+                        style="background-image: url(&quot;https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1707261675473_shutterstock_2326012803_edited.jpeg&quot;); background-position: 50% 60%; opacity: 1;">
                         <div class="is-overlay-color opacity-8"></div>
                     </div>
                 </div>
-                <div class="is-container v2 is-content-1740 size-17 leading-none" style="transition: all 0.3s ease-out 0s;">
+                <div class="is-container v2 is-content-1740 size-17 leading-none"
+                    style="transition: all 0.3s ease-out 0s;">
                     <div class="row">
                         <div class="column" style="width: 100%;">
                             <div class="spacer height-40"></div>
                         </div>
                         <div class="column" style="width: 31.3756%; flex: 0 0 auto;">
                             <div class="display">
-                                <h1 id="header_headline" class="leading-11 font-light capitalize size-68 font-semibold normal-case" style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(40, 17, 27);"><br></h1>
-                                <h1 id="header_headline" class="leading-11 font-light capitalize size-68 font-semibold normal-case" style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(250, 244, 247);"><span class="font-light text-center" style="font-family: &quot;Seymour One&quot;, sans-serif; color: rgb(250, 245, 247);">&nbsp; &nbsp; DUMPED</span><br></h1>
-                                <h1 id="header_headline" class="leading-11 font-light capitalize size-68 font-semibold normal-case" style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(40, 17, 27);"><br></h1>
+                                <h1 id="header_headline"
+                                    class="leading-11 font-light capitalize size-68 font-semibold normal-case"
+                                    style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(40, 17, 27);">
+                                    <br></h1>
+                                <h1 id="header_headline"
+                                    class="leading-11 font-light capitalize size-68 font-semibold normal-case"
+                                    style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(250, 244, 247);">
+                                    <span class="font-light text-center"
+                                        style="font-family: &quot;Seymour One&quot;, sans-serif; color: rgb(250, 245, 247);">&nbsp;
+                                        &nbsp; DUMPED</span><br></h1>
+                                <h1 id="header_headline"
+                                    class="leading-11 font-light capitalize size-68 font-semibold normal-case"
+                                    style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem; color: rgb(40, 17, 27);">
+                                    <br></h1>
                                 <p><br></p>
                                 <p><br></p>
                                 <p><br></p>
                                 <p><br></p>
-                                <h1 id="header_headline" class="leading-11 font-light capitalize size-68 font-semibold normal-case" style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem;">&nbsp; &nbsp;By Smile Direct&nbsp; &nbsp; &nbsp; &nbsp;Club?</h1>
-                                <h1 id="header_headline" class="leading-11 font-light capitalize size-68 font-semibold normal-case" style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem;">&nbsp; &nbsp;Get The Support&nbsp; &nbsp; &nbsp;You Need</h1>
-                                <h1 class="leading-none font-normal size-76 font-semibold normal-case" style="font-size: clamp(30px, 2.61vw, 2.61vw); letter-spacing: -1px; margin-top: 0.06rem; margin-bottom: 0.3rem; color: rgb(0, 0, 0);">
-                                    <p id="header_subheadline" class="xs-size-76 size-54 leading-14" style="font-family: &quot;Russo One&quot;, sans-serif; letter-spacing: 0.3px; color: rgb(53, 53, 53);">&nbsp; REFINEMENTS&nbsp; &nbsp; &nbsp; FROM JUST&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;£499*</p>
+                                <h1 id="header_headline"
+                                    class="leading-11 font-light capitalize size-68 font-semibold normal-case"
+                                    style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem;">
+                                    &nbsp; &nbsp;By Smile Direct&nbsp; &nbsp; &nbsp; &nbsp;Club?</h1>
+                                <h1 id="header_headline"
+                                    class="leading-11 font-light capitalize size-68 font-semibold normal-case"
+                                    style="font-size: clamp(31px, 2.81vw, 2.81vw); font-family: &quot;Tenor Sans&quot;, sans-serif; letter-spacing: 0.3px; margin-top: 0.6rem; margin-bottom: 0.9rem;">
+                                    &nbsp; &nbsp;Get The Support&nbsp; &nbsp; &nbsp;You Need</h1>
+                                <h1 class="leading-none font-normal size-76 font-semibold normal-case"
+                                    style="font-size: clamp(30px, 2.61vw, 2.61vw); letter-spacing: -1px; margin-top: 0.06rem; margin-bottom: 0.3rem; color: rgb(0, 0, 0);">
+                                    <p id="header_subheadline" class="xs-size-76 size-54 leading-14"
+                                        style="font-family: &quot;Russo One&quot;, sans-serif; letter-spacing: 0.3px; color: rgb(53, 53, 53);">
+                                        &nbsp; REFINEMENTS&nbsp; &nbsp; &nbsp; FROM JUST&nbsp; &nbsp; &nbsp; &nbsp;
+                                        &nbsp; &nbsp; &nbsp; &nbsp;£499*</p>
                                 </h1>
                             </div>
                         </div>
@@ -57,7 +138,8 @@
                     </div>
                     <div class="row sm-autofit">
                         <div class="column">
-                            <p>Limited time deal for existing Smile DIrect Club customers&nbsp;<br><br>£499 up to 14 more aligners&nbsp;</p>
+                            <p>Limited time deal for existing Smile DIrect Club customers&nbsp;<br><br>£499 up to 14
+                                more aligners&nbsp;</p>
                             <p>£750 up to 30 more aligners&nbsp;<br><br>£995 up to 40 more aligners&nbsp;</p>
                             <p><br></p>
                             <p>Must be seen and assessed before 30th March 2024&nbsp;</p>
@@ -73,14 +155,19 @@
                     <div class="row">
                         <div class="column">
                             <div class="text-right button-group">
-                                <a href="#" role="button" class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid mr-2 mt-2 mb-1 py-2 px-6 leading-14 border-transparent rounded tracking-wide hover:border-transparent font-semibold size-32" title="" style="color: rgb(255, 255, 255); background-color: rgb(0, 200, 218);">GET STARTED</a>
+                                <a href="index.html" role="button"
+                                    class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid mr-2 mt-2 mb-1 py-2 px-6 leading-14 border-transparent rounded tracking-wide hover:border-transparent font-semibold size-32"
+                                    title="" style="color: rgb(255, 255, 255); background-color: rgb(0, 200, 218);">GET
+                                    STARTED</a>
 
                             </div>
                         </div>
 
                     </div>
-                    <link href="https://fonts.googleapis.com/css2?family=Seymour%20One" rel="stylesheet" property="stylesheet">
-                    <link href="https://fonts.googleapis.com/css2?family=Russo%20One" rel="stylesheet" property="stylesheet">
+                    <link href="https://fonts.googleapis.com/css2?family=Seymour%20One" rel="stylesheet"
+                        property="stylesheet">
+                    <link href="https://fonts.googleapis.com/css2?family=Russo%20One" rel="stylesheet"
+                        property="stylesheet">
                 </div>
             </div>
 
@@ -89,7 +176,11 @@
                 <div class="is-container v2 size-16 leading-13 is-content-1600">
                     <div class="row">
                         <div class="column" spellcheck="false">
-                            <h2 class="leading-none size-68 font-light text-center is-fadeIn is-animated" style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);" data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">About Us</h2>
+                            <h2 class="leading-none size-68 font-light text-center is-fadeIn is-animated"
+                                style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);"
+                                data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);"
+                                data-center-bottom="transform: translateY(0px);opacity: 1;"
+                                data-top-bottom="transform: translateY(-20px);opacity: 0;">About Us</h2>
                         </div>
 
                     </div>
@@ -100,10 +191,18 @@
 
                     </div>
                     <div class="row">
-                        <div id="aboutUs_image" class="column" style="width: 353px; flex: 0 0 auto;"><img src="https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1707316297971_7%20Cheyne%20Walk.jpeg" alt="" style="width: 100%; height: auto;" data-filename="example-editEK3EaDM.png" class="is-fadeIn is-animated"></div>
+                        <div id="aboutUs_image" class="column" style="width: 353px; flex: 0 0 auto;"><img
+                                src="https://sightbuilder.s3.us-east-1.amazonaws.com/uploads/1159/1707316297971_7%20Cheyne%20Walk.jpeg"
+                                alt="" style="width: 100%; height: auto;" data-filename="example-editEK3EaDM.png"
+                                class="is-fadeIn is-animated"></div>
 
                         <div class="column" spellcheck="false" style="width: 100%;">
-                            <p id="aboutUs_description" class="size-16 font-extralight text-left" style="color: rgb(0, 0, 0);">At Better Aligners Corproation&nbsp; we understand the frustration of being left in the lurch by Smile Direct Club. Whether you need retainers or a few more aligners to complete your treatment, we are here to help. Our team is committed to providing personalized care and support to ensure you achieve the smile you've always wanted.</p>
+                            <p id="aboutUs_description" class="size-16 font-extralight text-left"
+                                style="color: rgb(0, 0, 0);">At Better Aligners Corproation&nbsp; we understand the
+                                frustration of being left in the lurch by Smile Direct Club. Whether you need retainers
+                                or a few more aligners to complete your treatment, we are here to help. Our team is
+                                committed to providing personalized care and support to ensure you achieve the smile
+                                you've always wanted.</p>
                         </div>
 
                     </div>
@@ -121,7 +220,13 @@
                 <div class="is-container v2 size-16 leading-13 is-content-1600">
                     <div class="row">
                         <div class="column" spellcheck="false">
-                            <h2 id="cwi_item_1" class="leading-none size-68 font-light text-center is-fadeIn is-animated" style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);" data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">Getting the Perfect Smile: Your Options for Completing Treatment with Smile Direct Club</h2>
+                            <h2 id="cwi_item_1"
+                                class="leading-none size-68 font-light text-center is-fadeIn is-animated"
+                                style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);"
+                                data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);"
+                                data-center-bottom="transform: translateY(0px);opacity: 1;"
+                                data-top-bottom="transform: translateY(-20px);opacity: 0;">Getting the Perfect Smile:
+                                Your Options for Completing Treatment with Smile Direct Club</h2>
                         </div>
 
                     </div>
@@ -131,21 +236,50 @@
                         </div>
 
                     </div>
-                    <div class="row sm-items-3 md-items-3 is-fadeInUp is-animated" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">
+                    <div class="row sm-items-3 md-items-3 is-fadeInUp is-animated"
+                        data-center-bottom="transform: translateY(0px);opacity: 1;"
+                        data-top-bottom="transform: translateY(-20px);opacity: 0;">
                         <div class="column" spellcheck="false">
-                            <h3 id="cwi_item_1_subtitle_1" class="size-24 font-semibold uppercase tracking-widest text-center no-underline" style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); border-top-color: initial; border-bottom-color: rgb(176, 78, 121); border-bottom-width: 3px; padding-bottom: 10px; transition: none 0s ease 0s;">Retainers for Maintenance</h3>
-                            <p id="cwi_item_1_description_1" style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">After completing treatment with Smile Direct Club, retainers are essential to maintain your perfect smile. Retainers help to prevent teeth from shifting and preserve the results achieved during the treatment.</p>
-                            <div id="cwi_item_1_image_1"><img src="https://westwooddentalhouston.com/wp-content/uploads/2016/12/What-Are-Retainers.jpg" alt="" data-filename="img-678x904.png"></div>
+                            <h3 id="cwi_item_1_subtitle_1"
+                                class="size-24 font-semibold uppercase tracking-widest text-center no-underline"
+                                style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); border-top-color: initial; border-bottom-color: rgb(176, 78, 121); border-bottom-width: 3px; padding-bottom: 10px; transition: none 0s ease 0s;">
+                                Retainers for Maintenance</h3>
+                            <p id="cwi_item_1_description_1"
+                                style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">
+                                After completing treatment with Smile Direct Club, retainers are essential to maintain
+                                your perfect smile. Retainers help to prevent teeth from shifting and preserve the
+                                results achieved during the treatment.</p>
+                            <div id="cwi_item_1_image_1"><img
+                                    src="https://westwooddentalhouston.com/wp-content/uploads/2016/12/What-Are-Retainers.jpg"
+                                    alt="" data-filename="img-678x904.png"></div>
                         </div>
                         <div class="column" spellcheck="false">
-                            <h3 id="cwi_item_1_subtitle_2" class="size-24 font-semibold tracking-widest uppercase text-center" style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); border-bottom-color: rgb(176, 78, 121); border-bottom-width: 3px; padding-bottom: 10px; transition: none 0s ease 0s;">Aligners for Completion</h3>
-                            <p id="cwi_item_1_description_2" style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">In case you need a few more aligners to perfect your smile, Smile Direct Club offers options for completing your treatment. These aligners are tailored to address any remaining adjustments needed for your teeth.</p>
-                            <div id="cwi_item_1_image_2"><img src="https://www.sundentallabs.com/wp-content/uploads/2019/03/aligners-interior.jpg" alt="" data-filename="img-014.jpg"></div>
+                            <h3 id="cwi_item_1_subtitle_2"
+                                class="size-24 font-semibold tracking-widest uppercase text-center"
+                                style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); border-bottom-color: rgb(176, 78, 121); border-bottom-width: 3px; padding-bottom: 10px; transition: none 0s ease 0s;">
+                                Aligners for Completion</h3>
+                            <p id="cwi_item_1_description_2"
+                                style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">
+                                In case you need a few more aligners to perfect your smile, Smile Direct Club offers
+                                options for completing your treatment. These aligners are tailored to address any
+                                remaining adjustments needed for your teeth.</p>
+                            <div id="cwi_item_1_image_2"><img
+                                    src="https://www.sundentallabs.com/wp-content/uploads/2019/03/aligners-interior.jpg"
+                                    alt="" data-filename="img-014.jpg"></div>
                         </div>
                         <div class="column" spellcheck="false">
-                            <h3 id="cwi_item_1_subtitle_3" class="size-24 font-semibold uppercase tracking-widest text-center" style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); padding-bottom: 10px; border-bottom-width: 3px; border-bottom-color: rgb(176, 78, 121); transition: none 0s ease 0s;">Personalized Support</h3>
-                            <p id="cwi_item_1_description_3" style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">Smile Direct Club provides personalized support to ensure you get the perfect smile. Their team of professionals can assist you in finding the best options to complete your treatment, addressing any concerns or adjustments.</p>
-                            <div id="cwi_item_1_image_3"><img src="https://i.cbc.ca/1.5511206.1585248627!/fileImage/httpImage/tester-3-smile-direct-club.png" alt="" data-filename="img-005.jpg"></div>
+                            <h3 id="cwi_item_1_subtitle_3"
+                                class="size-24 font-semibold uppercase tracking-widest text-center"
+                                style="font-family: Montserrat, sans-serif; color: rgb(176, 78, 121); padding-bottom: 10px; border-bottom-width: 3px; border-bottom-color: rgb(176, 78, 121); transition: none 0s ease 0s;">
+                                Personalized Support</h3>
+                            <p id="cwi_item_1_description_3"
+                                style="color: rgb(109, 109, 109); font-family: Montserrat, sans-serif;" class="size-16">
+                                Smile Direct Club provides personalized support to ensure you get the perfect smile.
+                                Their team of professionals can assist you in finding the best options to complete your
+                                treatment, addressing any concerns or adjustments.</p>
+                            <div id="cwi_item_1_image_3"><img
+                                    src="https://i.cbc.ca/1.5511206.1585248627!/fileImage/httpImage/tester-3-smile-direct-club.png"
+                                    alt="" data-filename="img-005.jpg"></div>
                         </div>
 
                     </div>
@@ -156,7 +290,11 @@
                 <div class="is-container v2 leading-13 size-16 is-content-1000">
                     <div class="row">
                         <div class="column" spellcheck="false">
-                            <h2 class="text-center tracking-wide size-64 font-light is-fadeIn is-animated" style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);" data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">Our Service</h2>
+                            <h2 class="text-center tracking-wide size-64 font-light is-fadeIn is-animated"
+                                style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);"
+                                data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);"
+                                data-center-bottom="transform: translateY(0px);opacity: 1;"
+                                data-top-bottom="transform: translateY(-20px);opacity: 0;">Our Service</h2>
                         </div>
 
                     </div>
@@ -168,37 +306,62 @@
                     </div>
                     <div class="row" data-bottom-top="opacity: 0;" data-center="opacity: 1;">
                         <div class="column half center">
-                            <div id="service_image_1" class="img-circular" style="margin:25px 0;width:270px;height:270px"><img src="https://westwooddentalhouston.com/wp-content/uploads/2016/12/What-Are-Retainers.jpg" alt=""></div>
+                            <div id="service_image_1" class="img-circular"
+                                style="margin:25px 0;width:270px;height:270px"><img
+                                    src="https://westwooddentalhouston.com/wp-content/uploads/2016/12/What-Are-Retainers.jpg"
+                                    alt=""></div>
                         </div>
                         <div class="column half" spellcheck="false">
                             <div class="spacer height-20"></div>
-                            <h3 id="service_1" class="size-38" style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Retainers</h3>
+                            <h3 id="service_1" class="size-38"
+                                style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Retainers</h3>
                             <div class="spacer height-20"></div>
-                            <p id="service_description_1" class="size-16 font-extralight" style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;" data-bottom-top="transform: translateX(-10px);" data-center="transform: translateX(0px);">We provide custom retainers to maintain the results of your Smile Direct Club treatment.</p>
+                            <p id="service_description_1" class="size-16 font-extralight"
+                                style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;"
+                                data-bottom-top="transform: translateX(-10px);"
+                                data-center="transform: translateX(0px);">We provide custom retainers to maintain the
+                                results of your Smile Direct Club treatment.</p>
                         </div>
 
                     </div>
                     <div class="row" data-bottom-top="opacity: 0;" data-center="opacity: 1;">
                         <div class="column half flex flex-col justify-center items-end" spellcheck="false">
                             <div class="spacer height-20"></div>
-                            <h3 id="service_2" class="size-38" style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Aligner Completion</h3>
+                            <h3 id="service_2" class="size-38"
+                                style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Aligner Completion
+                            </h3>
                             <div class="spacer height-20"></div>
-                            <p id="service_description_2" class="font-extralight size-16" style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);" data-bottom-top="transform: translateX(10px);" data-center="transform: translateX(0px);">Complete your Smile Direct Club treatment with additional aligners tailored to your needs.</p>
+                            <p id="service_description_2" class="font-extralight size-16"
+                                style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);"
+                                data-bottom-top="transform: translateX(10px);"
+                                data-center="transform: translateX(0px);">Complete your Smile Direct Club treatment with
+                                additional aligners tailored to your needs.</p>
                         </div>
                         <div class="column half center">
-                            <div id="service_image_2" class="img-circular" style="margin:25px 0;width:270px;height:270px"><img src="https://ghoshortho.com/app/uploads/2018/09/GettyImages-1164496177-scaled.jpg" alt=""></div>
+                            <div id="service_image_2" class="img-circular"
+                                style="margin:25px 0;width:270px;height:270px"><img
+                                    src="https://ghoshortho.com/app/uploads/2018/09/GettyImages-1164496177-scaled.jpg"
+                                    alt=""></div>
                         </div>
 
                     </div>
                     <div class="row" data-bottom-top="opacity: 0;" data-center="opacity: 1;">
                         <div class="column half center">
-                            <div id="service_image_3" class="img-circular" style="margin:25px 0;width:270px;height:270px"><img src="https://aosmiles.com/wp-content/uploads/2021/03/orthodontist-consult-1536x1024.jpg" alt=""></div>
+                            <div id="service_image_3" class="img-circular"
+                                style="margin:25px 0;width:270px;height:270px"><img
+                                    src="https://aosmiles.com/wp-content/uploads/2021/03/orthodontist-consult-1536x1024.jpg"
+                                    alt=""></div>
                         </div>
                         <div class="column half" spellcheck="false">
                             <div class="spacer height-20"></div>
-                            <h3 id="service_3" class="size-38" style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Orthodontic Consultation</h3>
+                            <h3 id="service_3" class="size-38"
+                                style="letter-spacing: 3px; font-family: Montserrat, sans-serif;">Orthodontic
+                                Consultation</h3>
                             <div class="spacer height-20"></div>
-                            <p id="service_description_3" class="font-extralight size-16" style="color: rgb(0, 0, 0);" data-bottom-top="transform: translateX(-10px);" data-center="transform: translateX(0px);">Receive a thorough assessment and personalized plan to address any issues left by Smile Direct Club.</p>
+                            <p id="service_description_3" class="font-extralight size-16" style="color: rgb(0, 0, 0);"
+                                data-bottom-top="transform: translateX(-10px);"
+                                data-center="transform: translateX(0px);">Receive a thorough assessment and personalized
+                                plan to address any issues left by Smile Direct Club.</p>
                         </div>
 
                     </div>
@@ -215,7 +378,11 @@
                 <div class="is-container v2 leading-14 size-18 is-content-880">
                     <div class="row">
                         <div class="column" spellcheck="false">
-                            <h2 class="font-light text-center size-64 is-fadeIn is-animated" style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);" data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">Testimonials</h2>
+                            <h2 class="font-light text-center size-64 is-fadeIn is-animated"
+                                style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);"
+                                data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);"
+                                data-center-bottom="transform: translateY(0px);opacity: 1;"
+                                data-top-bottom="transform: translateY(-20px);opacity: 0;">Testimonials</h2>
                         </div>
 
                     </div>
@@ -232,22 +399,44 @@
                         </div>
 
                     </div>
-                    <div class="row is-fadeIn is-animated" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-100px);opacity: 0;">
-                        <div class="column" spellcheck="false"><img src="https://app.sightbuilder.pro/assets/templates-quick/images/img-055.jpg" alt="" style="border-radius: 500px; width: 25.5263%; height: auto;" data-filename="img-055.jpg">
+                    <div class="row is-fadeIn is-animated" data-center-bottom="transform: translateY(0px);opacity: 1;"
+                        data-top-bottom="transform: translateY(-100px);opacity: 0;">
+                        <div class="column" spellcheck="false"><img
+                                src="https://app.sightbuilder.pro/assets/templates-quick/images/img-055.jpg" alt=""
+                                style="border-radius: 500px; width: 25.5263%; height: auto;"
+                                data-filename="img-055.jpg">
                             <div class="spacer height-20"></div>
-                            <p id="testimonial_text_1" class="size-16 font-extralight" style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">I'm so happy with the results from Cheyne Walk Orthodontics! The staff was friendly and professional, and my smile has never looked better.</p>
-                            <p class="tracking-wider italic size-16 font-extralight" style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">— A Client</p>
-                            <p id="testimonial_author_1" class="tracking-wider italic size-16 font-extralight" style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">Sophie Johnson</p>
+                            <p id="testimonial_text_1" class="size-16 font-extralight"
+                                style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">I'm so happy with the
+                                results from Cheyne Walk Orthodontics! The staff was friendly and professional, and my
+                                smile has never looked better.</p>
+                            <p class="tracking-wider italic size-16 font-extralight"
+                                style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">— A Client</p>
+                            <p id="testimonial_author_1" class="tracking-wider italic size-16 font-extralight"
+                                style="font-family: Montserrat, sans-serif; color: rgb(0, 0, 0);">Sophie Johnson</p>
                         </div>
-                        <div class="column" spellcheck="false"><img src="https://app.sightbuilder.pro/assets/templates-quick/images/img-010.jpg" alt="" style="border-radius: 500px; width: 25.5263%; height: auto;" data-filename="img-010.jpg">
+                        <div class="column" spellcheck="false"><img
+                                src="https://app.sightbuilder.pro/assets/templates-quick/images/img-010.jpg" alt=""
+                                style="border-radius: 500px; width: 25.5263%; height: auto;"
+                                data-filename="img-010.jpg">
                             <div class="spacer height-20"></div>
-                            <p id="testimonial_text_2" class="size-16 font-light" style="font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(0, 0, 0);">I had a great experience at Cheyne Walk Orthodontics. They made the process of getting my braces easy and comfortable, and I'm thrilled with the outcome.</p>
-                            <p id="testimonial_author_2" class="tracking-wider italic size-16 font-extralight" style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;">David Thompson</p>
+                            <p id="testimonial_text_2" class="size-16 font-light"
+                                style="font-family: &quot;Open Sans&quot;, sans-serif; color: rgb(0, 0, 0);">I had a
+                                great experience at Cheyne Walk Orthodontics. They made the process of getting my braces
+                                easy and comfortable, and I'm thrilled with the outcome.</p>
+                            <p id="testimonial_author_2" class="tracking-wider italic size-16 font-extralight"
+                                style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;">David Thompson</p>
                         </div>
-                        <div class="column" spellcheck="false"><img src="https://app.sightbuilder.pro/assets/templates-quick/images/img-010.jpg" alt="" style="border-radius: 500px; width: 25.5263%; height: auto;" data-filename="img-010.jpg">
+                        <div class="column" spellcheck="false"><img
+                                src="https://app.sightbuilder.pro/assets/templates-quick/images/img-010.jpg" alt=""
+                                style="border-radius: 500px; width: 25.5263%; height: auto;"
+                                data-filename="img-010.jpg">
                             <div class="spacer height-20"></div>
-                            <p id="testimonial_text_3" class="size-16 font-extralight" style="color: rgb(0, 0, 0);">Choosing Cheyne Walk Orthodontics was the best decision I made for my smile. The team was fantastic, and now I can't stop smiling!</p>
-                            <p id="testimonial_author_3" class="tracking-wider italic size-16 font-extralight" style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;">Emma Lewis</p>
+                            <p id="testimonial_text_3" class="size-16 font-extralight" style="color: rgb(0, 0, 0);">
+                                Choosing Cheyne Walk Orthodontics was the best decision I made for my smile. The team
+                                was fantastic, and now I can't stop smiling!</p>
+                            <p id="testimonial_author_3" class="tracking-wider italic size-16 font-extralight"
+                                style="color: rgb(0, 0, 0); font-family: Montserrat, sans-serif;">Emma Lewis</p>
                         </div>
 
                     </div>
@@ -259,7 +448,12 @@
                 <div class="is-container v2 size-16 leading-13 is-content-1600">
                     <div class="row">
                         <div class="column" spellcheck="false">
-                            <h2 id="cta_text" class="leading-none size-68 font-light text-center is-fadeIn is-animated" style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);" data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);" data-center-bottom="transform: translateY(0px);opacity: 1;" data-top-bottom="transform: translateY(-20px);opacity: 0;">Get the smile you've always wanted with Better Aligners Corporation !</h2>
+                            <h2 id="cta_text" class="leading-none size-68 font-light text-center is-fadeIn is-animated"
+                                style="font-family: &quot;Tenor Sans&quot;, sans-serif; color: rgb(176, 78, 121);"
+                                data-bottom-top="transform: translateY(20px);" data-center="transform: translateY(0px);"
+                                data-center-bottom="transform: translateY(0px);opacity: 1;"
+                                data-top-bottom="transform: translateY(-20px);opacity: 0;">Get the smile you've always
+                                wanted with Better Aligners Corporation !</h2>
                         </div>
 
                     </div>
@@ -269,10 +463,17 @@
                         </div>
 
                     </div>
-                    <div class="row" data-bottom-top="opacity: 0;" data-center="opacity: 1;" data-center-bottom="opacity: 1;" data-top-bottom="opacity: 0;">
+                    <div class="row" data-bottom-top="opacity: 0;" data-center="opacity: 1;"
+                        data-center-bottom="opacity: 1;" data-top-bottom="opacity: 0;">
                         <div class="column text-center">
                             <div style="font-family: Montserrat, sans-serif;">
-                                <a id="cta_button" href="#" role="button" class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid py-2 size-17 text-black leading-14 rounded border-transparent font-normal tracking-wide px-8 ml-1 mr-1 mb-0 mt-0 hover:text-black hover:border-transparent uppercase" style="background-color: rgb(240, 240, 240);" data-bg="rgb(240, 240, 240)" data-hover-bg="rgb(255,255,255)" onmouseover="if(this.getAttribute('data-hover-bg'))this.style.backgroundColor=this.getAttribute('data-hover-bg');" onmouseout="if(this.getAttribute('data-bg'))this.style.backgroundColor=this.getAttribute('data-bg');else this.style.backgroundColor=''">Book a consultation now</a>
+                                <a id="cta_button" href="index.html" role="button"
+                                    class="transition-all inline-block whitespace-nowrap cursor-pointer no-underline border-2 border-solid py-2 size-17 text-black leading-14 rounded border-transparent font-normal tracking-wide px-8 ml-1 mr-1 mb-0 mt-0 hover:text-black hover:border-transparent uppercase"
+                                    style="background-color: rgb(240, 240, 240);" data-bg="rgb(240, 240, 240)"
+                                    data-hover-bg="rgb(255,255,255)"
+                                    onmouseover="if(this.getAttribute('data-hover-bg'))this.style.backgroundColor=this.getAttribute('data-hover-bg');"
+                                    onmouseout="if(this.getAttribute('data-bg'))this.style.backgroundColor=this.getAttribute('data-bg');else this.style.backgroundColor=''">Book
+                                    a consultation now</a>
 
                             </div>
                         </div>
@@ -295,7 +496,8 @@
                     </div>
                 </div>
             </div>
-            <div class="is-section is-box is-dark-text is-static is-section-50 box-autofit type-poppins last-box scroll-target">
+            <div
+                class="is-section is-box is-dark-text is-static is-section-50 box-autofit type-poppins last-box scroll-target">
                 <div class="is-overlay" style="background-color: rgb(176, 78, 121);"></div>
                 <div class="is-container is-content-1200 v2 size-16 leading-13">
                     <div class="row">
@@ -330,9 +532,12 @@
                     </div>
                 </div>
             </div>
-            <link data-name="contentstyle" data-class="type-poppins-lekton" href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
-            <link data-name="contentstyle" data-class="type-poppins" href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
-            <link data-name="contentstyle" data-class="type-opensans" href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-poppins-lekton"
+                href="https://app.sightbuilder.pro/assets/styles/type-poppins-lekton.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-poppins"
+                href="https://app.sightbuilder.pro/assets/styles/type-poppins.css" rel="stylesheet">
+            <link data-name="contentstyle" data-class="type-opensans"
+                href="https://app.sightbuilder.pro/assets/styles/type-opensans.css" rel="stylesheet">
         </div>
     </main>
 
